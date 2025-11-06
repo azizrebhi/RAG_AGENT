@@ -1,0 +1,439 @@
+{
+  "id": "default",
+  "messages": [
+    {
+      "time": 1762467787,
+      "user": "What is Value at Risk (VaR) and why is it used in financial risk management?",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762468126,
+      "user": "what arethe projects in this cv ? ",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762468136,
+      "user": "what arethe projects in this cv ? ",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762468167,
+      "user": "what  are the projects in this pfe book ?",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762468860,
+      "user": "What is Value at Risk (VaR) and why is it used in financial risk management?",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762469847,
+      "user": "deffinissez le terme option",
+      "assistant": "[LLM ERROR] Error: unknown command \"generate\" for \"ollama\"",
+      "docs": [
+        {
+          "id": "7d709a0d-8224-473c-87fe-b13f045b525c",
+          "score": 0.5125392,
+          "source": "tt.pdf",
+          "chunk_id": 36,
+          "text": "tel que \n  \n4. VaR d’une position en option  \n4.1 VaR d’une position en option « Delta Normal »  \nIl est difficile d’obtenir une expression analytique de la distr ibution des pertes lorsque la position \ncontient des options \n- Le prix d’une option ne varie pas linéairement avec celui du sous -jacent \n- On ne sait réellement agréger que des distributions normales  \nSi le prix du sous-jacent suit une loi normale, il en est de même pour le prix de l’option.  \nSi x la rentabilité de l’action sur un jour  \n             \nUne relation approximative ente C et  x est C =d Sx \n4.2 Développement à l’ordre 2 « Delta Gamma »  \nPour prendre en compte la convexité des options, il faut poursuivre le développement du prix des \noptions à l’ordre 2"
+        },
+        {
+          "id": "633a2e00-49f0-4622-aab3-8e97686f9bc6",
+          "score": 0.4708669,
+          "source": "tt.pdf",
+          "chunk_id": 37,
+          "text": "Pour prendre en compte la convexité des options, il faut poursuivre le développement du prix des \noptions à l’ordre 2 \nC = dS + 1/2GS² avec d = ∂C/∂S et G = ∂²C/∂S² \n                        Soit C = Sdx + 1/2G S²x2"
+        },
+        {
+          "id": "173c2e9f-0308-446f-b589-bbb3903e790b",
+          "score": 0.4357368,
+          "source": "tt.pdf",
+          "chunk_id": 29,
+          "text": " Avoir davantage d’information afin d’ajuster le rendement par rapport au risque encouru ;  \n Déterminer l’impact d’une décision d’achat ou de vente d’actif sur la VaR du portefeuille.  \nLa VaR incré mentale d’un actif X est égale à la VaR du portefeuille calculée avec la position \nconsidérée dans l’actif X moins la VaR du portefeuille calculée sans la position considérée dans \nl’actif X."
+        },
+        {
+          "id": "a4e32ea5-8368-4090-8705-ed2f36c72ee6",
+          "score": 0.43328518,
+          "source": "tt.pdf",
+          "chunk_id": 28,
+          "text": "(respectivement faible) pour un actif ayant un bêta élevée (respectiv ement faible). Dans certain \ncas la VaR marginale est négative indiquant que l’augmentation de la pondération d’un actif  \n2.1.6 La VaR Incrémentale  \nLa VaR incrémentale permet de connaître l’ajout ou la soustraction de risque qui survient \nlorsqu’on rajoute (enlève) un certain titre au portefeuille en place.  \nLa notion de VaR incrémentale ou IvaR ( incremental VaR ) est particulièrement pertinente \npuisqu’elle permet de : \n Identifier les sources de risque auxquelles l’investisseur fait face; ce qui permet d’avoir plus \nd’information pour gérer les positions prises sur chaque actif ;  \n Avoir davantage d’information afin d’ajuster le rendement par rapport au risque encouru ;"
+        },
+        {
+          "id": "f034b74b-bca4-4ab1-bf0d-6fb94f914ca1",
+          "score": 0.4089453,
+          "source": "tt.pdf",
+          "chunk_id": 54,
+          "text": "10/ Calculer la VaR de cette option pour un intervalle de confiance de 99% et un horizon de 1 \njour. \nExercice 2 \nUn portefeuille contient des options sur actions «  XL » et « ABS » ayant les caractéristiques \nsuivantes : \nSous jacent Delta de l’option Prix de l’action Volatilité \njournalière du \nrendement des \nactions \n \nXL 100 120 2% 0,3 \nABS 2000 30 1% \n \nCalculer la perte potentielle maximale à un niveau de confiance de 95% et un horizon de 5 jours."
+        },
+        {
+          "id": "4cb962b9-9aca-4841-ba63-e4b127136847",
+          "score": 0.40391123,
+          "source": "tt.pdf",
+          "chunk_id": 52,
+          "text": "2/ Calculer les VaR individuelles pour un intervalle de confiance de 99% et un horizon de 1 \njour. Déduire La VaR non diversifiée du portefeuille.  \n3/ Calculer la VaR diversifiée du portefeuille pour un intervalle de co nfiance de 99% et un \nhorizon de 1 jour. \n4/ Comparer les deux VaR et interpréter.  \n5/ Calculer la VaR marginale de l’action A et celle de l’action B.  \n6/ Calculer la VaR incrémentale suite à une acquisition supplémentaire de 40000 € de \nl’action A et 20000 € de l’action B. \n7/ Calculer les composantes de la VaR et les pourcentages de contributions?  \nCe même investisseur a investi 500000 € dans une obligation à coupon de maturité 3 ans. Le taux \nde coupon est de 6% et la volatilité annuelle du taux d’intérêt est de 22.23%. Le taux actuariel est"
+        }
+      ]
+    },
+    {
+      "time": 1762469962,
+      "user": "comment evaluez une  option ",
+      "assistant": "[LLM ERROR] Error: unknown command \"generate\" for \"ollama\"",
+      "docs": [
+        {
+          "id": "173c2e9f-0308-446f-b589-bbb3903e790b",
+          "score": 0.48158967,
+          "source": "tt.pdf",
+          "chunk_id": 29,
+          "text": " Avoir davantage d’information afin d’ajuster le rendement par rapport au risque encouru ;  \n Déterminer l’impact d’une décision d’achat ou de vente d’actif sur la VaR du portefeuille.  \nLa VaR incré mentale d’un actif X est égale à la VaR du portefeuille calculée avec la position \nconsidérée dans l’actif X moins la VaR du portefeuille calculée sans la position considérée dans \nl’actif X."
+        },
+        {
+          "id": "4cb962b9-9aca-4841-ba63-e4b127136847",
+          "score": 0.42457297,
+          "source": "tt.pdf",
+          "chunk_id": 52,
+          "text": "2/ Calculer les VaR individuelles pour un intervalle de confiance de 99% et un horizon de 1 \njour. Déduire La VaR non diversifiée du portefeuille.  \n3/ Calculer la VaR diversifiée du portefeuille pour un intervalle de co nfiance de 99% et un \nhorizon de 1 jour. \n4/ Comparer les deux VaR et interpréter.  \n5/ Calculer la VaR marginale de l’action A et celle de l’action B.  \n6/ Calculer la VaR incrémentale suite à une acquisition supplémentaire de 40000 € de \nl’action A et 20000 € de l’action B. \n7/ Calculer les composantes de la VaR et les pourcentages de contributions?  \nCe même investisseur a investi 500000 € dans une obligation à coupon de maturité 3 ans. Le taux \nde coupon est de 6% et la volatilité annuelle du taux d’intérêt est de 22.23%. Le taux actuariel est"
+        },
+        {
+          "id": "f034b74b-bca4-4ab1-bf0d-6fb94f914ca1",
+          "score": 0.41988832,
+          "source": "tt.pdf",
+          "chunk_id": 54,
+          "text": "10/ Calculer la VaR de cette option pour un intervalle de confiance de 99% et un horizon de 1 \njour. \nExercice 2 \nUn portefeuille contient des options sur actions «  XL » et « ABS » ayant les caractéristiques \nsuivantes : \nSous jacent Delta de l’option Prix de l’action Volatilité \njournalière du \nrendement des \nactions \n \nXL 100 120 2% 0,3 \nABS 2000 30 1% \n \nCalculer la perte potentielle maximale à un niveau de confiance de 95% et un horizon de 5 jours."
+        },
+        {
+          "id": "7d709a0d-8224-473c-87fe-b13f045b525c",
+          "score": 0.39703077,
+          "source": "tt.pdf",
+          "chunk_id": 36,
+          "text": "tel que \n  \n4. VaR d’une position en option  \n4.1 VaR d’une position en option « Delta Normal »  \nIl est difficile d’obtenir une expression analytique de la distr ibution des pertes lorsque la position \ncontient des options \n- Le prix d’une option ne varie pas linéairement avec celui du sous -jacent \n- On ne sait réellement agréger que des distributions normales  \nSi le prix du sous-jacent suit une loi normale, il en est de même pour le prix de l’option.  \nSi x la rentabilité de l’action sur un jour  \n             \nUne relation approximative ente C et  x est C =d Sx \n4.2 Développement à l’ordre 2 « Delta Gamma »  \nPour prendre en compte la convexité des options, il faut poursuivre le développement du prix des \noptions à l’ordre 2"
+        },
+        {
+          "id": "633a2e00-49f0-4622-aab3-8e97686f9bc6",
+          "score": 0.3884952,
+          "source": "tt.pdf",
+          "chunk_id": 37,
+          "text": "Pour prendre en compte la convexité des options, il faut poursuivre le développement du prix des \noptions à l’ordre 2 \nC = dS + 1/2GS² avec d = ∂C/∂S et G = ∂²C/∂S² \n                        Soit C = Sdx + 1/2G S²x2"
+        },
+        {
+          "id": "a40bd0d8-4979-4e6e-9af4-a2a1e7cba0d4",
+          "score": 0.3720538,
+          "source": "tt.pdf",
+          "chunk_id": 11,
+          "text": "partir d’un historique de 500 données journalières. La première étape consiste à identifier les \nvariables de marché pertinentes, nous prendrons ici l’exemple des prix de marché.  \nOn collecte ainsi des données sur les 500 jours qui viennent de s’écouler. Pour chaque jour, on \nrelève les gains et les pertes en effectuant la soustraction : (prix final – prix initial).  \nOn classe ensuite ces 500 valeurs par ordre croissant. Finalement, pour obtenir la Value at \nRiskVaR(X%, 1j) il suffit de rechercher une valeur du classement e n utilisant la formule \nsuivante: \nVaR(X%, 1j ) = N*(100% - X% ) \nOù N est le nombre de données hi storiques.  \nDans notre cas, avec N=500, si l’on souhaite  obtenir une VaR à 99% il suffit de relever la 5ème \n(500 * (100% - 99%)) valeur obtenue."
+        }
+      ]
+    },
+    {
+      "time": 1762470402,
+      "user": "tell me about the the sujet in the pfebbook",
+      "assistant": "[LLM ERROR] Error: unknown command \"generate\" for \"ollama\"",
+      "docs": [
+        {
+          "id": "1a65c89d-9325-48e0-8e67-651a5035fd81",
+          "score": 0.20755824,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "15ae095f-0e3e-421e-b255-febdb8cc1042",
+          "score": 0.20755824,
+          "source": "pp.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "2d76d6bc-3373-40d3-98bd-8ae6fa8fea90",
+          "score": 0.19865796,
+          "source": "pp.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "20c06140-58c1-4bbe-b050-ba1b80cd8310",
+          "score": 0.19865796,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "b3c51f3a-b2f5-424b-852a-82316754261a",
+          "score": 0.19656862,
+          "source": "pp.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        },
+        {
+          "id": "197a78c0-fd1b-4ebc-8702-2d7ef55e8cd2",
+          "score": 0.19656862,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        }
+      ]
+    },
+    {
+      "time": 1762470581,
+      "user": "tell me about the the sujet in the pfebbook",
+      "assistant": "[LLM ERROR] \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ‹ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ™ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ¹ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ¸ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ¼ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ´ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest â ¦ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest \u001b[K\u001b[?25h\u001b[?2026l\nError: pull model manifest: file does not exist",
+      "docs": [
+        {
+          "id": "1a65c89d-9325-48e0-8e67-651a5035fd81",
+          "score": 0.20755824,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "15ae095f-0e3e-421e-b255-febdb8cc1042",
+          "score": 0.20755824,
+          "source": "pp.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "2d76d6bc-3373-40d3-98bd-8ae6fa8fea90",
+          "score": 0.19865796,
+          "source": "pp.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "20c06140-58c1-4bbe-b050-ba1b80cd8310",
+          "score": 0.19865796,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "b3c51f3a-b2f5-424b-852a-82316754261a",
+          "score": 0.19656862,
+          "source": "pp.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        },
+        {
+          "id": "197a78c0-fd1b-4ebc-8702-2d7ef55e8cd2",
+          "score": 0.19656862,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        }
+      ]
+    },
+    {
+      "time": 1762470755,
+      "user": "tell me about the the sujet in the pfebbook",
+      "assistant": "[LLM ERROR] \u001b[?2026h\u001b[?25l\u001b[1Gâ ™ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gâ ¹ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1Gâ ¸ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hError: 500 Internal Server Error: model requires more system memory than is currently available unable to load full model on GPU",
+      "docs": [
+        {
+          "id": "1a65c89d-9325-48e0-8e67-651a5035fd81",
+          "score": 0.20755824,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "15ae095f-0e3e-421e-b255-febdb8cc1042",
+          "score": 0.20755824,
+          "source": "pp.pdf",
+          "chunk_id": 45,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nSEMrush and structured query analysis; taxonomy and entity\nmapping\nPython for scraping and processing; n8n pipelines; OpenAI for\nsynthesis\nData visualisation (Looker Studio/Sheets) and concise insight\npackaging\nInvestigative curiosity, bias awareness, and source validation\ndiscipline\nCrisp reporting for senior stakeholders; persistence and follow-\nthrough\n Fluency in English (spoken and written) is mandatory."
+        },
+        {
+          "id": "2d76d6bc-3373-40d3-98bd-8ae6fa8fea90",
+          "score": 0.19865796,
+          "source": "pp.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "20c06140-58c1-4bbe-b050-ba1b80cd8310",
+          "score": 0.19865796,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 43,
+          "text": "Ensure alignment with account-based and regional\nmarketing strategies, maintaining compliance with\ngovernance standards such as human-in-the-loop review,\nprompt/version control, and bias safeguards.\nContribute to building a durable, scalable AI playbook that\nmaximises marketing throughput and personalisation\npotential for Axe Finance.\nOpenAI/Claude APIs and prompting fundamentals; JSON\nschemas and webhooks \nn8n and Zapier for orchestration; HubSpot and WordPress\nintegrations \nBasic scripting (JavaScript/Python) for connectors and data\nshaping \nExperimental mindset with strong ethics/risk awareness; clear\nexplanations for non-technical peers \nFamiliarity with WordPress. \nDisciplined documentation of prompts, versions, and outcomes;\nautonomous yet reliable stakeholder updates"
+        },
+        {
+          "id": "b3c51f3a-b2f5-424b-852a-82316754261a",
+          "score": 0.19656862,
+          "source": "pp.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        },
+        {
+          "id": "197a78c0-fd1b-4ebc-8702-2d7ef55e8cd2",
+          "score": 0.19656862,
+          "source": "e5addb01_PFE BOOK - 2026.pdf",
+          "chunk_id": 2,
+          "text": "Founded in 2004, axefinance is a global market-leading software\nprovider focused on credit risk automation, enabling lenders to deliver\nan efficient, competitive, and seamless omnichannel financing journey.\nAxefinance developed Axe Credit Portal – ACP – a future-proof, AI-\ndriven solution designed to automate the entire credit lifecycle, from\nKYC and origination to scoring, automated decision-making, and\nservicing.\nAbout Axe Finance\n1"
+        }
+      ]
+    },
+    {
+      "time": 1762470994,
+      "user": "tell me about the the sujet in the pfebbook",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762471013,
+      "user": "tell me about the the sujet in the pfebbook",
+      "assistant": "I don't know based on the uploaded documents. Please ingest PDFs first.",
+      "docs": []
+    },
+    {
+      "time": 1762471061,
+      "user": "tell me about this chapter montecarlo ",
+      "assistant": "[LLM ERROR] 'charmap' codec can't encode character '\\u03b2' in position 371: character maps to <undefined>",
+      "docs": [
+        {
+          "id": "e001259a-e3ef-461c-b90c-279824dc3d8e",
+          "score": 0.2169345,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 31,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle I\nPropriétés statistiques lorsque le beta est estimé\n˜βn est une variable aléatoire qui dépend de tout l’échantillon (on devrait\nécrire ˜βn(X1,...Xn)) contrairement à ˜β qui est une constante\n(déterministe).\nCela a pour conséquence de modiﬁer le comportement de notre\nestimateur de Monte Carlo avec variable de contrôle. En effet,\nθ˜βn\nn ≡1\nn\nn∑\ni=1\nh˜β(n) (Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(n)(γ(Xi ) −µ)\n]\nn’est plus une somme de variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 30 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "8e3fe4be-ab24-40d0-8ef9-45941467c978",
+          "score": 0.2137515,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 12,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nPropriétés\nPuisque ˆθA\nn ≡n−1\nn∑\ni=1\nh(Zi ) est une somme de variables aléatoires\nindépendantes et identiquement distribuée, ses propriétés\nasymptotiques sont les mêmes que celles de l’estimateur de Monte\nCarlo en substituant σ2 par ξ2 :\nSans biais\nE\n[ˆθA\nn\n]\n= 1\nn\nn∑\ni=1\nE[h(Zi )] = 1\nn\nn∑\ni=1\nθ= θ.\nConvergent\nVar\n[ˆθA\nn\n]\n= 1\nn2\nn∑\ni=1\nVar[h(Zi )] = ξ2\nn\n→ 0 lorsque n →∞ .\nOmar OUESLATI 13 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "b239359a-6405-4cb9-b318-9fdf127a0d19",
+          "score": 0.21315774,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 22,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nEstimateur sans biais\nPuisque\nE[g(X) + β(γ(X) −µ)] = E[g(X)] + β(E[γ(X)] −µ)\n= θ+ β(µ−µ)\n= θ\noù β est une constante, nous proposons un estimateur basé sur la variable\naléatoire\nhβ(X) = g(X) + β(γ(X) −µ).\nOmar OUESLATI 21 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "a0170335-ad28-4458-940d-0a51907cf0c6",
+          "score": 0.21073541,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 26,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nDéﬁnition de l’estimateur\nL ’estimateur de Monte Carlo deθavec variable de contrôle est\nθ˜β\nn ≡1\nn\nn∑\ni=1\nh˜β(Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(γ(Xi ) −µ)\n]\noù X1,X2,...,Xn sont des variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 25 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "947fe5ba-d658-4f78-aa15-a74904372903",
+          "score": 0.21033302,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 44,
+          "text": "3 Noter les temps de calcul nécessaires pour chaque taille d’échantillon.\n4 Produisez un graphe présentant la marge d’erreur en abscisse et le\ntemps de calcul en ordonnée.\nOmar OUESLATI 42 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "281f5b7d-e710-45f3-9c5d-988dd0ae46e9",
+          "score": 0.207837,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 10,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nCas particulier II\nD’autre part, il y a des fonctions pour lesquelles la variable antithétique\nne fonctionne pas du tout : si g(x) = ax2, alors\nξ2 = Var\n[\ng(Z) + g(−Z)\n2\n]\n= Var\n[\naZ2 + a(−Z)2\n2\n]\n= Var\n[\naZ2]\n= σ2.\nOmar OUESLATI 11 / 1 Méthodes Monte Carlo en Finance"
+        }
+      ]
+    },
+    {
+      "time": 1762471123,
+      "user": "tell me about this chapter montecarlo ",
+      "assistant": "[LLM ERROR] \u001b[?2026h\u001b[?25l\u001b[1G⠙ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hError: 500 Internal Server Error: model requires more system memory than is currently available unable to load full model on GPU",
+      "docs": [
+        {
+          "id": "e001259a-e3ef-461c-b90c-279824dc3d8e",
+          "score": 0.2169345,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 31,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle I\nPropriétés statistiques lorsque le beta est estimé\n˜βn est une variable aléatoire qui dépend de tout l’échantillon (on devrait\nécrire ˜βn(X1,...Xn)) contrairement à ˜β qui est une constante\n(déterministe).\nCela a pour conséquence de modiﬁer le comportement de notre\nestimateur de Monte Carlo avec variable de contrôle. En effet,\nθ˜βn\nn ≡1\nn\nn∑\ni=1\nh˜β(n) (Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(n)(γ(Xi ) −µ)\n]\nn’est plus une somme de variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 30 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "8e3fe4be-ab24-40d0-8ef9-45941467c978",
+          "score": 0.2137515,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 12,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nPropriétés\nPuisque ˆθA\nn ≡n−1\nn∑\ni=1\nh(Zi ) est une somme de variables aléatoires\nindépendantes et identiquement distribuée, ses propriétés\nasymptotiques sont les mêmes que celles de l’estimateur de Monte\nCarlo en substituant σ2 par ξ2 :\nSans biais\nE\n[ˆθA\nn\n]\n= 1\nn\nn∑\ni=1\nE[h(Zi )] = 1\nn\nn∑\ni=1\nθ= θ.\nConvergent\nVar\n[ˆθA\nn\n]\n= 1\nn2\nn∑\ni=1\nVar[h(Zi )] = ξ2\nn\n→ 0 lorsque n →∞ .\nOmar OUESLATI 13 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "b239359a-6405-4cb9-b318-9fdf127a0d19",
+          "score": 0.21315774,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 22,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nEstimateur sans biais\nPuisque\nE[g(X) + β(γ(X) −µ)] = E[g(X)] + β(E[γ(X)] −µ)\n= θ+ β(µ−µ)\n= θ\noù β est une constante, nous proposons un estimateur basé sur la variable\naléatoire\nhβ(X) = g(X) + β(γ(X) −µ).\nOmar OUESLATI 21 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "a0170335-ad28-4458-940d-0a51907cf0c6",
+          "score": 0.21073541,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 26,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nDéﬁnition de l’estimateur\nL ’estimateur de Monte Carlo deθavec variable de contrôle est\nθ˜β\nn ≡1\nn\nn∑\ni=1\nh˜β(Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(γ(Xi ) −µ)\n]\noù X1,X2,...,Xn sont des variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 25 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "947fe5ba-d658-4f78-aa15-a74904372903",
+          "score": 0.21033302,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 44,
+          "text": "3 Noter les temps de calcul nécessaires pour chaque taille d’échantillon.\n4 Produisez un graphe présentant la marge d’erreur en abscisse et le\ntemps de calcul en ordonnée.\nOmar OUESLATI 42 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "281f5b7d-e710-45f3-9c5d-988dd0ae46e9",
+          "score": 0.207837,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 10,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nCas particulier II\nD’autre part, il y a des fonctions pour lesquelles la variable antithétique\nne fonctionne pas du tout : si g(x) = ax2, alors\nξ2 = Var\n[\ng(Z) + g(−Z)\n2\n]\n= Var\n[\naZ2 + a(−Z)2\n2\n]\n= Var\n[\naZ2]\n= σ2.\nOmar OUESLATI 11 / 1 Méthodes Monte Carlo en Finance"
+        }
+      ]
+    },
+    {
+      "time": 1762471232,
+      "user": "tell me about this chapter montecarlo ",
+      "assistant": "[LLM ERROR] \u001b[?2026h\u001b[?25l\u001b[1G⠙ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hError: 500 Internal Server Error: model requires more system memory than is currently available unable to load full model on GPU",
+      "docs": [
+        {
+          "id": "e001259a-e3ef-461c-b90c-279824dc3d8e",
+          "score": 0.2169345,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 31,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle I\nPropriétés statistiques lorsque le beta est estimé\n˜βn est une variable aléatoire qui dépend de tout l’échantillon (on devrait\nécrire ˜βn(X1,...Xn)) contrairement à ˜β qui est une constante\n(déterministe).\nCela a pour conséquence de modiﬁer le comportement de notre\nestimateur de Monte Carlo avec variable de contrôle. En effet,\nθ˜βn\nn ≡1\nn\nn∑\ni=1\nh˜β(n) (Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(n)(γ(Xi ) −µ)\n]\nn’est plus une somme de variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 30 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "8e3fe4be-ab24-40d0-8ef9-45941467c978",
+          "score": 0.2137515,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 12,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nPropriétés\nPuisque ˆθA\nn ≡n−1\nn∑\ni=1\nh(Zi ) est une somme de variables aléatoires\nindépendantes et identiquement distribuée, ses propriétés\nasymptotiques sont les mêmes que celles de l’estimateur de Monte\nCarlo en substituant σ2 par ξ2 :\nSans biais\nE\n[ˆθA\nn\n]\n= 1\nn\nn∑\ni=1\nE[h(Zi )] = 1\nn\nn∑\ni=1\nθ= θ.\nConvergent\nVar\n[ˆθA\nn\n]\n= 1\nn2\nn∑\ni=1\nVar[h(Zi )] = ξ2\nn\n→ 0 lorsque n →∞ .\nOmar OUESLATI 13 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "b239359a-6405-4cb9-b318-9fdf127a0d19",
+          "score": 0.21315774,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 22,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nEstimateur sans biais\nPuisque\nE[g(X) + β(γ(X) −µ)] = E[g(X)] + β(E[γ(X)] −µ)\n= θ+ β(µ−µ)\n= θ\noù β est une constante, nous proposons un estimateur basé sur la variable\naléatoire\nhβ(X) = g(X) + β(γ(X) −µ).\nOmar OUESLATI 21 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "a0170335-ad28-4458-940d-0a51907cf0c6",
+          "score": 0.21073541,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 26,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables de contrôle\nDéﬁnition de l’estimateur\nL ’estimateur de Monte Carlo deθavec variable de contrôle est\nθ˜β\nn ≡1\nn\nn∑\ni=1\nh˜β(Xi )\n= 1\nn\nn∑\ni=1\n[\ng(Xi ) + ˜β(γ(Xi ) −µ)\n]\noù X1,X2,...,Xn sont des variables aléatoires indépendantes et\nidentiquement distribuées.\nOmar OUESLATI 25 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "947fe5ba-d658-4f78-aa15-a74904372903",
+          "score": 0.21033302,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 44,
+          "text": "3 Noter les temps de calcul nécessaires pour chaque taille d’échantillon.\n4 Produisez un graphe présentant la marge d’erreur en abscisse et le\ntemps de calcul en ordonnée.\nOmar OUESLATI 42 / 1 Méthodes Monte Carlo en Finance"
+        },
+        {
+          "id": "281f5b7d-e710-45f3-9c5d-988dd0ae46e9",
+          "score": 0.207837,
+          "source": "4ffe1f13_ch051Tr .pdf",
+          "chunk_id": 10,
+          "text": "DRAFT\nPreliminary Version\nVersion control information:Oueslati Omar – ©Copyright – Révision : 34 (34) - 2012-07-08 13:45\nVariables antithétiques\nCas particulier II\nD’autre part, il y a des fonctions pour lesquelles la variable antithétique\nne fonctionne pas du tout : si g(x) = ax2, alors\nξ2 = Var\n[\ng(Z) + g(−Z)\n2\n]\n= Var\n[\naZ2 + a(−Z)2\n2\n]\n= Var\n[\naZ2]\n= σ2.\nOmar OUESLATI 11 / 1 Méthodes Monte Carlo en Finance"
+        }
+      ]
+    }
+  ]
+}
